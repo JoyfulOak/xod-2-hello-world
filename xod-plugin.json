@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "apiVersion": 1,
+  "id": "example.hello-world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "description": "A small example showing plugin commands, panels, and themes.",
+  "xodVersion": ">=2026.3.0",
+  "entry": "dist/plugin.js",
+  "permissions": ["ui.notify"],
+  "contributes": {
+    "commands": [{ "id": "hello", "label": "Say hello" }],
+    "panels": [{ "id": "about", "title": "About this plugin" }],
+    "themes": []
+  }
+}
